@@ -1,0 +1,55 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+#mistakeCounter {
+  color: red;
+}
+#grid {
+  margin: 0 auto;
+  width: 450px;
+  height: 450px;
+  background-color: #eee;
+  display: flex;
+  flex-wrap: wrap;
+}
+.row {
+  height: 50px;
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  cursor: pointer;
+  height: 48px;
+  width: 48px;
+  border: 1px solid #ddd;
+  font-size: 40px;
+  color: rgb(66, 123, 197);
+}
+.rightBorder {
+  border-right: 1px solid black;
+}
+.bottomBorder {
+  border-bottom: 1px solid black;
+}
+.given {
+  color: #000;
+}
+.selected {
+  background-color: rgb(218, 218, 218);
+}
+.mistake {
+  color: red;
+}
+hr {
+  width: 500px;
+}
+#options {
+  margin: 0 auto;
+  width: 500px;
+  height: 50px;
+  background-color: #eee;
+  display: flex;
+  flex-wrap: wrap;
+}
